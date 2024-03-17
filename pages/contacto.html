@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+    <!-- Link a animaciones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <!-- Link a archivo de estilo -->
+    <link rel="stylesheet" href="../style.css">
+
+    <title>Proyecto Final</title>
+
+</head>
+
+<body>
+    <header>
+        <img src="../img/png-transparent-javascript.png"
+            class="logo animate__animated animate__heartBeat animate__infinite">
+        <nav>
+            <ul class="pestanias">
+                <li><a href="../index.html" class="navbar">Inicio</a></li>
+                <li><a href="nosotros.html" class="navbar">Nosotros</a></li>
+                <li><a href="productos.html" class="navbar">Productos</a></li>
+                <li><a href="contacto.html" class="navbar">Contacto</a></li>
+                <li>
+                    <div>
+                        <button class="botonModoOscuro">Modo Claro / Oscuro</button>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="tituloPrincipal">
+            <h1>Contacto</h1>
+        </div>
+        <div class="contenidoPrincipal">
+            <form action="/my-handling-form-page" method="post">
+                <ul>
+                    <li>
+                        <label for="name">Nombre :</label>
+                        <input type="text" id="name" name="user_name">
+                    </li>
+                    <li>
+                        <label for="mail">Email @:</label>
+                        <input type="email" id="mail" name="user_mail">
+                    </li>
+                    <li>
+                        <label for="msg">Mensaje :</label>
+                        <textarea id="msg" name="user_message"></textarea>
+                    </li>
+                </ul>
+            </form>
+            <li class="button">
+                <button type="submit">Envíe su mensaje</button>
+            </li>
+        </div>
+    </main>
+    <footer>
+        <div>
+            <p>
+                Javascript
+            </p>
+        </div>
+    </footer>
+    <script src="../js/modoOscuro.js"></script>
+</body>
+
+</html>
